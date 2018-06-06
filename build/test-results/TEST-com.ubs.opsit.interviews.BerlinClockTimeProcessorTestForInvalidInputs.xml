@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ubs.opsit.interviews.BerlinClockTimeProcessorTestForInvalidInputs" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-06-06T17:15:15" hostname="Mahesh-Shinde" time="0.007">
+  <properties/>
+  <testcase name="testForInvalidFormat_DifferentSeparator" classname="com.ubs.opsit.interviews.BerlinClockTimeProcessorTestForInvalidInputs" time="0.001"/>
+  <testcase name="testForInvalidFormat_NegNumber" classname="com.ubs.opsit.interviews.BerlinClockTimeProcessorTestForInvalidInputs" time="0.002"/>
+  <testcase name="testForEmpty" classname="com.ubs.opsit.interviews.BerlinClockTimeProcessorTestForInvalidInputs" time="0.001"/>
+  <testcase name="testForInvalidFormat_InvalidCharInInput" classname="com.ubs.opsit.interviews.BerlinClockTimeProcessorTestForInvalidInputs" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
