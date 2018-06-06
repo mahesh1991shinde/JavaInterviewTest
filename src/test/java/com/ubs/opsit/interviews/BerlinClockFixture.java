@@ -13,15 +13,17 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 public class BerlinClockFixture {
 
-    private TimeConverter berlinClock;
+    private TimeConverter berlinClock = new BerlinClockTimeProcessor();
     private String theTime;
 
     @Test
     public void berlinClockAcceptanceTests() throws Exception {
-        aBehaviouralTestRunner()
+    	//org.jbehave.core.reporters.EscapeMode.HTML.escapeString("");
+		aBehaviouralTestRunner()
                 .usingStepsFrom(this)
                 .withStory("berlin-clock.story")
                 .run();
+		
     }
 
     @When("the time is $time")
@@ -32,5 +34,7 @@ public class BerlinClockFixture {
     @Then("the clock should look like $")
     public void thenTheClockShouldLookLike(String theExpectedBerlinClockOutput) {
         assertThat(berlinClock.convertTime(theTime)).isEqualTo(theExpectedBerlinClockOutput);
+        //assertThat(berlinClock.convertTime(theTime)).isEqualToIgnoringWhitespace(theExpectedBerlinClockOutput);
+       
     }
 }

@@ -6,7 +6,16 @@
 	<classpathentry kind="src" path="src/test/java"/>
 	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
 	<classpathentry kind="lib" path="instructions/gradle/wrapper/gradle-wrapper.jar"/>
-	<classpathentry kind="lib" path="lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="build/libs/assertj-core-3.10.0.jar"/>
+	<classpathentry kind="lib" path="build/libs/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="build/libs/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="build/libs/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="build/libs/commons-text-1.3.jar"/>
+	<classpathentry kind="lib" path="build/libs/freemarker-2.3.28.jar"/>
+	<classpathentry kind="lib" path="build/libs/JavaInterviewTest-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="build/libs/jbehave-core-4.3.3.jar"/>
+	<classpathentry kind="lib" path="build/libs/paranamer-2.8.jar"/>
+	<classpathentry kind="lib" path="build/libs/slf4j-api-1.7.25.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
