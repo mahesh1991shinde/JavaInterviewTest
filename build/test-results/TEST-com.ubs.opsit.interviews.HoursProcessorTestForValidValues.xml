@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ubs.opsit.interviews.HoursProcessorTestForValidValues" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-06-06T17:15:15" hostname="Mahesh-Shinde" time="0.009">
+  <properties/>
+  <testcase name="testForValidHoursValue[0]" classname="com.ubs.opsit.interviews.HoursProcessorTestForValidValues" time="0.002"/>
+  <testcase name="testForValidHoursValue[1]" classname="com.ubs.opsit.interviews.HoursProcessorTestForValidValues" time="0.001"/>
+  <testcase name="testForValidHoursValue[2]" classname="com.ubs.opsit.interviews.HoursProcessorTestForValidValues" time="0.0"/>
+  <testcase name="testForValidHoursValue[3]" classname="com.ubs.opsit.interviews.HoursProcessorTestForValidValues" time="0.002"/>
+  <testcase name="testForValidHoursValue[4]" classname="com.ubs.opsit.interviews.HoursProcessorTestForValidValues" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
